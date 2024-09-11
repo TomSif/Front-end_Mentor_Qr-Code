@@ -6,13 +6,15 @@
 
 body {
   background-color: hsl(212, 45%, 89%);
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Outfit", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 0;
+  text-align: center;
+  padding: 1rem;
 }
 
 main {
@@ -35,36 +37,43 @@ h1 {
 }
 .tile {
   display: flex;
+  flex-grow: 0;
   width: 16.65vw;
+  max-width: 20rem;
   min-width: 200px;
-  aspect-ratio: 1 / 1.56;
   flex-direction: column;
-  justify-content: flex-start;
   background-color: white;
   border-radius: 1rem;
-  text-align: center;
-  align-items: center;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
 }
 
-img {
+.image {
+  height: auto;
+  width: 288px;
+  display: block;
   border-radius: 9%;
   padding: 0.9rem;
-  width: 100%;
+  max-width: 100%;
 }
 
+.text {
+  max-width: 268px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 40px;
+  gap: 16px;
+  margin-inline: auto;
+}
 .p1 {
-  text-align: center;
-  font-weight: 400;
   color: hsl(218, 44%, 22%);
-  margin: 0.8vh 1.6vw;
-  font-size: 22px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0 16px;
 }
 .p2 {
-  font-weight: 400;
   color: hsl(216, 15%, 48%);
-  font-size: 15px;
-  margin: 1.2vh 1.505vw 1vh 1.505vw;
+  font-size: 0.8rem;
+  padding: 0 16px;
 }
 
 .attribution {
