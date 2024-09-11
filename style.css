@@ -37,8 +37,9 @@ h1 {
 }
 .tile {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-grow: 0;
-  width: 16.65vw;
   max-width: 20rem;
   min-width: 200px;
   flex-direction: column;
@@ -60,14 +61,14 @@ h1 {
   max-width: 268px;
   display: flex;
   flex-direction: column;
-  padding: 20px 0 40px;
+  padding: 10px 0 40px;
   gap: 16px;
   margin-inline: auto;
 }
 .p1 {
   color: hsl(218, 44%, 22%);
-  font-size: 1.1rem;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 500;
   padding: 0 16px;
 }
 .p2 {
