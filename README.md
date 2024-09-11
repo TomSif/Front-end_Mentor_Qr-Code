@@ -48,6 +48,6 @@ Chatgpt for questions
 ## Author
 
 - Website - https://tomsif.github.io/Front-end_Mentor_Qr-Code/
-- Frontend Mentor - [@Tom] https://www.frontendmentor.io/profile/TomSif
+- Frontend Mentor - [@TomSif] https://www.frontendmentor.io/profile/TomSif
 
 ## Acknowledgments
